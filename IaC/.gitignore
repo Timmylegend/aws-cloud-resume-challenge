@@ -1,0 +1,20 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Local Terraform configurations
+.terraform/
+*.tfplan
+
+# AWS credentials
+.aws/
+
+# Lambda zip files
+lambda/*.zip
+
+# Ignore terraform.exe if you're on Windows
+terraform.exe
+
+# Visual Studio Code
+.vscode/
